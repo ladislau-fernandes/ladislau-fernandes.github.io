@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.min.css">
+  <title>Portfólio</title>
+</head>
+<body>
+  <main>
+
+    <header>
+      <div class="logo">
+        LADISLAU NAGY
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Ladislau Fernandes Marques Nagy.</h2>
+        <span class="home-position">Desenvolvedor Front-End</span>
+        <span class="home-resume">
+          Cursando Analise e Desenvolvimento de sistemas, atualmente estou no primeiro semestre, mas tenho experiência com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JAVASCRIPT</strong>
+        </span>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="img/WhatsApp Image 2022-11-11 at 17.29.10(1).jpeg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/site.png" alt="EM BREVE !">
+            </div>
+            <div class="project-info">
+              <h2>Landig Page</h2>
+              <p>Criação de Landing Page responsivo para qualquer dispositivo.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/shop.png" alt="EM BREVE !">
+            </div>
+            <div class="project-info">
+              <h2>Sites Responsivos</h2>
+              <p>Criação de Sites Responsivos.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/sistema.png" alt="EM BREVE !">
+            </div>
+            <div class="project-info">
+              <h2>Projetos JAVASCRIPT</h2>
+              <p>Alguns projetos feitos em JAVASCRIPT.</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <footer>
+    copyright © 2022 Ladislau Nagy. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
